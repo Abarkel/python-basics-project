@@ -19,8 +19,8 @@ def show_tasks():
     for i, task in enumerate(tasks):
         print(i+1,task)
 
-# The 'show_aktive_tasks' function prints all the active tasks in the 'tasks' list.
-def show_aktive_tasks():   
+# The 'show_active_tasks' function prints all the active tasks in the 'tasks' list.
+def show_active_tasks():   
     print("Active Tasks:")
     for i, task in enumerate(tasks):
             if "(Done)" not in task:    
@@ -55,7 +55,7 @@ def load_tasks():
 # The 'edit_tasks' function allows the user to edit an existing task. It first shows the current tasks, 
 # then prompts the user to enter the task number they want to edit and the new task description. It updates the task in the list if the input is valid.
 def edit_tasks():
-    show_aktive_tasks()
+    show_active_tasks()
     task_number = input("Enter the task number to edit: ")   
     try:
         print("Current task:", tasks[int(task_number)-1])
@@ -68,10 +68,10 @@ def edit_tasks():
     except (IndexError, ValueError):
         print("Invalid task number , please enter a valid number.")
 
-# The 'mark_Task_done' function allows the user to mark a task as done. It shows the current tasks, 
+# The 'mark_task_done' function allows the user to mark a task as done. It shows the current tasks, 
 # prompts the user to enter the task number they want to mark as done, and appends "(Done)" to the task description if the input is valid.
-def mark_Task_done():
-    show_aktive_tasks()
+def mark_task_done():
+    show_active_tasks()
     try:
        Done_task_number = input("Enter the task number to mark as done: ")   
        if Done_task_number.strip():
@@ -108,7 +108,7 @@ def main():
             show_tasks()
        
         elif choice == '3':
-            show_aktive_tasks()
+            show_active_tasks()
             save_tasks()
 
         elif choice == '4':
@@ -120,11 +120,11 @@ def main():
             save_tasks()
 
         elif choice == '6':
-            mark_Task_done()
+            mark_task_done()
             save_tasks()
 
         elif choice == '7':
-            show_aktive_tasks()
+            show_active_tasks()
             task = input("Enter the task number to remove: ")
             remove_task(task)
             save_tasks()
