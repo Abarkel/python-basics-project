@@ -12,6 +12,8 @@ Perfekt, um Grundlagen wie Dateiverarbeitung, JSON und einfache CLI-Logik zu ler
 * Aufgaben löschen
 * Speicherung in `tasks.json`
 * Einfache Kommandozeilen-Bedienung
+* Aufgaben editieren 
+* Aufgaben als gemacht markieren 
 
 ---
 
@@ -91,7 +93,6 @@ Dieses Projekt hilft dir, folgende Python-Konzepte zu verstehen:
 
 ## 🔧 Verbesserungsmöglichkeiten
 
-* Aufgaben als "erledigt" markieren
 * Datum/Uhrzeit hinzufügen
 * GUI mit Tkinter oder Web-App (z. B. Flask)
 * Datenbank statt JSON verwenden
