@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Fehler beim Öffnen eines Supporttickets",
+    "done": false
+  },
+  {
+    "title": "Statusänderung eines Tickets wird nicht gespeichert",
+    "done": false
+  },
+  {
+    "title": "Hardwareproblem am Arbeitsplatz wurde behoben",
+    "done": true
+  }
+]
