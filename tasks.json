@@ -20,7 +20,11 @@
     "done": true
   },
   {
-    "title": "Fehler beim Öffnen eines Supporttickets",
+    "title": "Fehler beim Öffnen eines Supporttickets prüfen",
+    "done": false
+  },
+  {
+    "title": "Fehler beim Rechner starten",
     "done": false
   }
 ]
