@@ -14,8 +14,8 @@ from app.ticket_service import (
 
 # Erstellt die FastAPI-Anwendung.
 app = FastAPI(
-    title="A-bis-Z Solutions Ticketsystem",
-    description="Einfache Web-API zur Verwaltung interner Supporttickets.",
+    title="A2Z ServiceDesk",
+    description="Web-API zur Verwaltung interner Support- und Entwicklungsaufgaben.",
     version="1.0.0",
 )
 
