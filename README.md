@@ -7,13 +7,13 @@ Perfekt, um Grundlagen wie Dateiverarbeitung, JSON und einfache CLI-Logik zu ler
 
 ## 🚀 Features
 
-* Aufgaben hinzufügen
-* Aufgaben anzeigen
-* Aufgaben löschen
-* Speicherung in `tasks.json`
-* Einfache Kommandozeilen-Bedienung
-* Aufgaben editieren 
-* Aufgaben als gemacht markieren 
+- Aufgaben hinzufügen
+- Aufgaben anzeigen
+- Aufgaben löschen
+- Speicherung in `tasks.json`
+- Einfache Kommandozeilen-Bedienung
+- Aufgaben editieren
+- Aufgaben als gemacht markieren
 
 ---
 
@@ -22,7 +22,7 @@ Perfekt, um Grundlagen wie Dateiverarbeitung, JSON und einfache CLI-Logik zu ler
 ```
 backend-roadmap/
 │
-├── Python-basics-project.py   # Hauptprogramm
+├── main.py   # Hauptprogramm
 ├── tasks.json                # Speicher für Aufgaben
 └── README.md                 # Projektdokumentation
 ```
@@ -31,7 +31,7 @@ backend-roadmap/
 
 ## ⚙️ Voraussetzungen
 
-* Python 3.x installiert
+- Python 3.x installiert
 
 Download: https://www.python.org/
 
@@ -42,23 +42,23 @@ Download: https://www.python.org/
 Im Terminal:
 
 ```bash
-python Python-basics-project.py
+python main.py
 ```
 
 oder (wie bei dir):
 
 ```bash
-C:/Users/.../python.exe Python-basics-project.py
+C:/Users/.../python.exe main.py
 ```
 
 ---
 
 ## 📌 Beispiel Aufgaben
 
-* Einkaufen gehen
-* Python lernen
-* Sport machen
-* Projekt fertigstellen
+- Einkaufen gehen
+- Python lernen
+- Sport machen
+- Projekt fertigstellen
 
 ---
 
@@ -84,18 +84,18 @@ Minimaler Inhalt:
 
 Dieses Projekt hilft dir, folgende Python-Konzepte zu verstehen:
 
-* Arbeiten mit Dateien (`open`, `read`, `write`)
-* JSON verarbeiten (`json.load`, `json.dump`)
-* Funktionen und Programmstruktur
-* Fehlerbehandlung (`try/except`)
+- Arbeiten mit Dateien (`open`, `read`, `write`)
+- JSON verarbeiten (`json.load`, `json.dump`)
+- Funktionen und Programmstruktur
+- Fehlerbehandlung (`try/except`)
 
 ---
 
 ## 🔧 Verbesserungsmöglichkeiten
 
-* Datum/Uhrzeit hinzufügen
-* GUI mit Tkinter oder Web-App (z. B. Flask)
-* Datenbank statt JSON verwenden
+- Datum/Uhrzeit hinzufügen
+- GUI mit Tkinter oder Web-App (z. B. Flask)
+- Datenbank statt JSON verwenden
 
 ---
 
