@@ -32,8 +32,10 @@ jobs:
           ruff check app tests
 
       - name: Tests mit pytest ausführen
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
-          pytest
+          python -m pytest
 
       # Das Docker-Image wird nur gebaut, aber nicht veröffentlicht.
       - name: Docker Image bauen
