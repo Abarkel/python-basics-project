@@ -44,8 +44,8 @@ jobs:
       - name: Docker Image bauen
         run: |
           docker build \
-            -t ghcr.io/DEIN-GITHUB-NAME/a2z-servicedesk:${{ github.sha }} \
-            -t ghcr.io/DEIN-GITHUB-NAME/a2z-servicedesk:ci .
+            -t ghcr.io/abarkel/a2z-servicedesk:${{ github.sha }} \
+            -t ghcr.io/abarkel/a2z-servicedesk:ci .
 
       - name: Login bei GitHub Container Registry
         if: github.event_name == 'push'
@@ -55,5 +55,5 @@ jobs:
       - name: Docker Image veröffentlichen
         if: github.event_name == 'push'
         run: |
-          docker push ghcr.io/DEIN-GITHUB-NAME/a2z-servicedesk:${{ github.sha }}
-          docker push ghcr.io/DEIN-GITHUB-NAME/a2z-servicedesk:ci
+          docker push ghcr.io/abarkel/a2z-servicedesk:${{ github.sha }}
+          docker push ghcr.io/abarkel/a2z-servicedesk:ci
